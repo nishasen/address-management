@@ -1,0 +1,132 @@
+body {
+  background-color: #000;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  width: 60%;
+  margin: 0 auto;
+}
+
+.address-form {
+  background-color: #292929;
+  padding: 1rem;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #666666;
+}
+
+.address-label {
+  display: block;
+  font-size: 1.3rem;
+  text-align: left;
+  padding: 0.3rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.address-input {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 1rem;
+  padding: 0.5rem;
+  border: 1.5px solid;
+  border-radius: 1rem;
+}
+
+.input-div {
+  display: flex;
+  font-size: 1.1rem;
+  align-items: center;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.radio-box {
+  display: flex;
+
+  gap: 1rem;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.radio-input {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.address-btn-box,
+.btn-saved-address {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.address-btn-box button,
+.btn-add-address,
+.btn-saved-address button {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  width: 100%;
+  margin: 0.2rem;
+  border-radius: 1rem;
+}
+
+.btn-add-address {
+  width: 10rem;
+}
+
+.btn-save,
+.btn-edit {
+  background-color: #214497;
+  color: #f4f4f4;
+}
+
+.btn-cancel,
+.btn-delete {
+  color: #214497;
+}
+
+.btn-save:hover,
+.btn-edit:hover {
+  background-color: #3665d3;
+}
+
+.btn-cancel:hover,
+.btn-delete:hover {
+  color: white;
+  background-color: grey;
+}
+
+.address-display {
+  color: white;
+  margin: 0 auto;
+  width: 60%;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  background-color: #1f1f1f;
+  margin: 1rem auto;
+}
+
+.address-type {
+  background-color: grey;
+  display: inline;
+  padding: 0.2rem;
+}
+
+.address-display p {
+  margin-top: -0.5rem;
+}
+
+.para-style {
+  font-weight: bold;
+  font-family: "Hubballi", cursive;
+}
